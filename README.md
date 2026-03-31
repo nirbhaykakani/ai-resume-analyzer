@@ -48,7 +48,7 @@ uvicorn main:app --reload
 
 ### 2. Start Backend
 cd backend  
-gradlew bootRun  
+./gradlew bootRun  
 
 ### 3. Start Frontend
 cd frontend  
