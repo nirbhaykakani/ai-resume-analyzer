@@ -32,6 +32,10 @@ def match_jobs(resume_text):
 
     return results
 
+@app.get("/")
+def home():
+    return {"message": "AI Service Running"}
+
 
 # 🚀 Main API
 @app.post("/analyze")
